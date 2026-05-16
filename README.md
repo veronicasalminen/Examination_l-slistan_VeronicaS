@@ -6,7 +6,7 @@
 - Funktion för att markera och avmarkera favoriter
 - Funktion för att hantera fler böcker i katalogen
 - Funktion för att lägga till och ta bort böcker i favoritebooks
-- Integrationstest som kontrollerar samspoel mellan bookstore och favorebooks
+- Integrationstest som kontrollerar samspoel mellan bookstore och favoritebooks
 
 
 ### Frontend:
@@ -18,13 +18,13 @@
 
 ### Teststrategi
 - Enhetstester (pytest) 
-- integrationstester används för testa samspel mellan 
+- integrationstester används för testa samspel mellan bookstore och favoritebooks
 - BDD och e2e tester, (behave och playwright) används för användareflöden i webbläsare
 
 
-## Starta projekt
+# Starta projekt
 
-### Installera 
+## Installera 
 pip install -r requirements.txt: 
 
 - pytest
@@ -33,3 +33,11 @@ pip install -r requirements.txt:
 - pytest-playwright
 
 - playwright install
+
+## Köra tester
+
+### Backend tester
+py -m pytest
+
+### e2e tester
+py -m behave tests/e2e/features
