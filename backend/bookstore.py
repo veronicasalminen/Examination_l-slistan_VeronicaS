@@ -6,5 +6,9 @@ class BookStore:
     def addBook(self, author, title):
         self.books.append({
             "author": author,
-            "title": title
+            "title": title,
+            "favorite": False
         })
+
+    def toggleFavorite(self, book_id):
+        self.books[book_id]["favorite"] = True
