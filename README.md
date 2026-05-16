@@ -27,8 +27,9 @@
 ### Installera 
 pip install -r requirements.txt: 
 
-pytest
-behave
-playwright
-pytest-playwright
+- pytest
+- behave
+- playwright
+- pytest-playwright
 
+- playwright install
