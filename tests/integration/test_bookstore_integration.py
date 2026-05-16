@@ -13,3 +13,18 @@ def test_book_can_be_added_to_favorites():
     favorites.add(book)
 
     assert len(favorites.favorites) == 1
+
+# Testar att bookstore och favorebooks fungerar tillsammans i ett flöde
+def test_book_can_be_favorited_and_stored():
+    store = BookStore()
+    favorites = FavoriteBooks()
+
+    store.addBook("Veronica", "Salminen")
+    store.toggleFavorite(0)
+
+    book = store.books[0]
+
+    if book["favorite"]:
+        favorites.add(book)
+
+    assert len(favorites.favorites) == 1

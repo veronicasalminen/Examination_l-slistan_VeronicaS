@@ -5,3 +5,4 @@ class FavoriteBooks:
 
     def add(self, book):
         self.favorites.append(book)
+

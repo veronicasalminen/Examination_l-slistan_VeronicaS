@@ -4,7 +4,7 @@ from backend.favorite_books import FavoriteBooks
 def test_add_favorite():
     favorites = FavoriteBooks()
 
-    book = {"Veronica": "Salminen"}
+    book = {"author": "Veronica", "title": "Salminen", "favorite": True}
 
     favorites.add(book)
 

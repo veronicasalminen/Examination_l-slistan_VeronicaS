@@ -6,8 +6,6 @@ Feature: Favorite books
     Then the book should be saved under my favorites
 
 
-Feature: Remove favorite marking
-
   Scenario: Remove a book from favorites
     Given a book exists in my favorites
     When I remove the favorite mark

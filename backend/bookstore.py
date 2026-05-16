@@ -1,3 +1,4 @@
+
 class BookStore:
 
     def __init__(self):
@@ -10,5 +11,6 @@ class BookStore:
             "favorite": False
         })
 
+#Växlar favorit status mellan true och false
     def toggleFavorite(self, book_id):
-        self.books[book_id]["favorite"] = True
+        self.books[book_id]["favorite"] = not self.books[book_id]["favorite"]
