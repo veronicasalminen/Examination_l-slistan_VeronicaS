@@ -42,3 +42,7 @@ py -m pytest
 
 ### e2e tester
 py -m behave tests/e2e/features
+
+
+
+Arbetat med G-kraven och några VG krav
