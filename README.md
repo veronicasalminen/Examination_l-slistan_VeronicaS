@@ -1,5 +1,7 @@
 # Läslistan - Examination
 
+Github repository:: https://github.com/veronicasalminen/Examination_l-slistan_VeronicaS.git
+
 ## Vad som testas
 ### Backend:
 - Funktion för att lägga till böcker i bookstore
