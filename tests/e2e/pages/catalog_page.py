@@ -3,7 +3,7 @@ class CatalogPage:
         self.page = page
 
     def open(self):
-        self.page.goto("http://localhost:3000")
+        self.page.goto("https://tap-ht25-testverktyg.github.io/exam/")
 
     def favorite_button(self):
         return self.page.locator("[data-testid='favorite-button']")

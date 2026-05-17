@@ -25,12 +25,13 @@
 # Starta projekt
 
 ## Installera 
-pip install -r requirements.txt: 
+py -m pip install -r requirements.txt :
 
 - pytest
 - behave
 - playwright
 - pytest-playwright
+
 
 - playwright install
 
